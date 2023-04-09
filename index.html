@@ -1,0 +1,105 @@
+<DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/x-icon" href="images/Favicon.png">
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<aside>
+    <div class="topnav">
+    <a href="#Education">Education</a>
+    <a href="#Experience">Experience</a>
+    <a href="#Skills">Skills</a>
+    <a href="#Contact Me">Contact Me</a></div>
+    </aside>
+</head>  
+<body>
+    <div class="parallax">
+<header> 
+    <h1>Tendani Ramanyimi</h1>
+    <div class="Logo"><img src="Images/Favicon.jpg" alt="Logo" style="width: 50px; height: 50px;"></div>
+</header>
+<section>
+    <div class="fade-in-text-intro">An independent and self-motivated individual who has the<br> ability to evolve her skills and learn more in any environment<br> shes in. An individual who can lead and also be<br> lead. Ready to take on the next challenge.
+    </div>
+    <div class="professional-picture"><img src="Images/resumepicture.jpg" alt="professional-picture" style="width:400px ; height:500px"></div>
+    <article></div>
+    <div class="Experience"><h2 id="Experience">Experience</h2></div>
+    <div class="row">
+    <div class="columns">
+    <h4>Teaching Assistant (01/2021-04/2021)</h4>
+    <p>Supporting the teacher in charge and supporting students in the classroom. As the job title implies, teacher assistants assist the lead teacher to ease their workload and help out with everyday classroom tasks, such as grading homework or taking attendance.</p></div>
+    <div class="columns">
+    <h4>Computer Lab Facilitator (06/2021-01/2023)</h4>
+    <p>Operating, troubleshooting and maintaining the
+    computer lab hardware, software, and peripheral equipment; training and supporting teachers and students by
+    responding to software questions; observe and control student behavior when in the computer lab in accordance
+    with approved policies and procedures.</p></div>
+    <div class="Education"><h2 id="Education">Education</h2></div>
+    <ul>National Senior Certificate</ul>
+    <ul>N3-N5 Electrical Engineering</ul>
+    <ul>Programming Fundamentals</ul>
+    <ul>TEFL Certificate</ul>
+    <ul>Marketing In A Digital World</ul>
+    <div class="Skills"><h2 id="Skills"> Skills</h2></div>
+    <ol type="I">
+    <li>Self-disciplined</li> 
+    <li>Adept in Technology</li> 
+    <li>Organizational</li> 
+    <li>Proficient Typer</li>
+    <li>Strong Listening Skills</li> 
+    <li>Outstanding Communication Skills</li></ol>
+    <div class="Contact"><h2 id="Contact Me">Contact Me</h2></div>
+</section>
+</body>
+<footer>
+    <form target="_blank" action="https://formsubmit.co/t.ramanyimi@lab.clicklearning.org" method="POST">
+    <div class="form-group">
+    <div class="form-row">
+    <div class="col">
+    <input type="text" name="name" class="form-control" placeholder="Full Name" required></div>
+    <div class="col">
+    <input type="text" name="email" class="form-control" placeholder="Email Address" required></div>
+    <div class="form-group">
+    </div>
+    </div>
+    </div>
+    <div class="radio">
+    <input type="radio" id="WWTWWY" name="reason" value="WWTWWY" required>
+    <label for="WWTWWY">We want to work with you</label><br>
+    <input type="radio" id="INMI" name="reason" value="INMI" required>
+    <label for="INMI">I need more information</label><br>
+    <input type="radio" id="both" name="reason" value="both" required>
+    <label for="both">Both</label>
+    <textarea placeholder="Your Message" class="form-control" name="message" rows="10"></textarea>
+    <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+    </form></div>
+    <div class="Reach"><h4>Alternatively Reach Me Here</h4>
+    <a href="https://za.linkedin.com/in/tendani-ramanyimi" target="_blank"><img src="images/svgs/brands/linkedin.svg" alt="Linkedin" style="width:42px;height:42px;"></a>
+    <a href="https://www.facebook.com/tendani.adhara/" target="_blank"><img src="images/svgs/brands/facebook-f.svg" alt="Facebook" style="width: 42px;height: 42px;"></a></div>
+</footer>
+<script>
+              
+    /* Get the button*/
+    let mybutton = document.getElementById("myBtn");
+        
+    /* When the user scrolls down 20px from the top of the document, show the button */
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+    }
+    else {
+    mybutton.style.display = "none";
+    }}
+        
+    /* When the user clicks on the button, scroll to the top of the document */
+    function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    }
+</script>    
+
+</html>
