@@ -1,70 +1,85 @@
 <DOCTYPE html>
 <html>
 <head>
-    <link rel="icon" type="image/x-icon" href="images/Favicon.png">
+    <title>ITW9_FINAL DIGITAL RESUMÉ</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" href="stylesheet.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <aside>
-    <div class="topnav">
+    <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Menu</button>
+    <div id="myDropdown" class="dropdown-content">
     <a href="#Education">Education</a>
     <a href="#Experience">Experience</a>
     <a href="#Skills">Skills</a>
-    <a href="#Contact Me">Contact Me</a></div>
-    </aside>
+    <a href="#Contact Me">Contact Me</a>
+    </div>
+    </div>
+</aside>
 </head>  
 <body>
     <div class="parallax">
 <header> 
     <h1>Tendani Ramanyimi</h1>
+    <div class="jobtitle">Facilitator</div>
     <div class="Logo"><img src="Images/Favicon.jpg" alt="Logo" style="width: 50px; height: 50px;"></div>
+    <div class="github"><a href="https://github.com/Tendani2000" target="_blank"><img src="images/svgs/brands/github.svg" alt="Github" style="width: 42px;height: 42px;"></a></div>
+    <div class="Contact1"><a href="#Contact Me" id="Contact">Contact</a></div></div>
 </header>
 <section>
     <div class="fade-in-text-intro">An independent and self-motivated individual who has the<br> ability to evolve her skills and learn more in any environment<br> shes in. An individual who can lead and also be<br> lead. Ready to take on the next challenge.
     </div>
-    <div class="professional-picture"><img src="Images/resumepicture.jpg" alt="professional-picture" style="width:400px ; height:500px"></div>
-    <article></div>
-    <div class="Experience"><h2 id="Experience">Experience</h2></div>
-    <div class="row">
-    <div class="columns">
+    <div class="professional-picture"><img src="Images/resumepicture.jpg" alt="professional-picture" style="width: 300px;height:400px;">
+    </div>
+    <article>
+    <FadeInSection><div class="Experience"><h3 id="Experience">Experience</h3></div>
+    <div class="container">
+    <div class="animated">
     <h4>Teaching Assistant (01/2021-04/2021)</h4>
-    <p>Supporting the teacher in charge and supporting students in the classroom. As the job title implies, teacher assistants assist the lead teacher to ease their workload and help out with everyday classroom tasks, such as grading homework or taking attendance.</p></div>
-    <div class="columns">
+    <p>Supporting the teacher in charge and supporting students in the classroom. Teacher assistants assist the lead teacher to ease their workload and help out with everyday classroom tasks, such as grading homework or taking attendance.</p>
+    </div>
+    <div class="animated">
     <h4>Computer Lab Facilitator (06/2021-01/2023)</h4>
     <p>Operating, troubleshooting and maintaining the
     computer lab hardware, software, and peripheral equipment; training and supporting teachers and students by
     responding to software questions; observe and control student behavior when in the computer lab in accordance
-    with approved policies and procedures.</p></div>
-    <div class="Education"><h2 id="Education">Education</h2></div>
-    <ul>National Senior Certificate</ul>
-    <ul>N3-N5 Electrical Engineering</ul>
-    <ul>Programming Fundamentals</ul>
-    <ul>TEFL Certificate</ul>
-    <ul>Marketing In A Digital World</ul>
-    <div class="Skills"><h2 id="Skills"> Skills</h2></div>
-    <ol type="I">
-    <li>Self-disciplined</li> 
-    <li>Adept in Technology</li> 
-    <li>Organizational</li> 
-    <li>Proficient Typer</li>
-    <li>Strong Listening Skills</li> 
-    <li>Outstanding Communication Skills</li></ol>
-    <div class="Contact"><h2 id="Contact Me">Contact Me</h2></div>
+    with approved policies and procedures.</p></div></div></FadeInSection>
+    <div class="parallax3">
+    <div class="Education"><h2 id="Education">Education</h2>
+    <ul>National Senior Certificate (Rhodesfield Technical High School)</ul>
+    <ul>N3-N5 Electrical Engineering (Ekurhuleni West Colleg)</ul>
+    <ul>Programming Fundamentals (CodeSpace)</ul>
+    <ul>TEFL Certificate (TeacherRecord)</ul>
+    <ul>Marketing In A Digital World (Coursera)</ul>
+    <div class="parallax1">
+    <div class="Skills"id="Skills">
+    <h2>Skills</h2>
+    <h4>HTML</h4>
+        <span class="bar"><span class="HTML"></span></span>
+    <h4>Microsoft Word/Excel/Powerpoint</h4>
+        <span class="bar"><span class="ProficientTyper"></span></span>
+    <h4>JAVASCRIPT</h4>
+        <span class="bar"><span class="JAVASCRIPT"></span></span>
+    <h4>CSS</h4>
+        <span class="bar"><span class="CSS"></span></span>
+    </div></div>
 </section>
 </body>
 <footer>
+    
+    <div class="Contact"><h2 id="Contact Me">Contact Me</h2></div>
     <form target="_blank" action="https://formsubmit.co/t.ramanyimi@lab.clicklearning.org" method="POST">
     <div class="form-group">
     <div class="form-row">
     <div class="col">
-    <input type="text" name="name" class="form-control" placeholder="Full Name" required></div>
+    <div class="parallax2">
+    <input type="text" name="name" class="form-control" placeholder="Full Name" required>
     <div class="col">
     <input type="text" name="email" class="form-control" placeholder="Email Address" required></div>
     <div class="form-group">
-    </div>
-    </div>
     </div>
     <div class="radio">
     <input type="radio" id="WWTWWY" name="reason" value="WWTWWY" required>
@@ -78,10 +93,13 @@
     </form></div>
     <div class="Reach"><h4>Alternatively Reach Me Here</h4>
     <a href="https://za.linkedin.com/in/tendani-ramanyimi" target="_blank"><img src="images/svgs/brands/linkedin.svg" alt="Linkedin" style="width:42px;height:42px;"></a>
+    <a href="mailto:t.ramanyimi@lab.clicklearning.org" target="_blank"><img src="images/svgs/regular/envelope.svg" alt="gmail" style="width: 42px;height: 42px;"></a>
     <a href="https://www.facebook.com/tendani.adhara/" target="_blank"><img src="images/svgs/brands/facebook-f.svg" alt="Facebook" style="width: 42px;height: 42px;"></a></div>
+    </div></div></div></div></div>
+</div>
+</div>
 </footer>
-<script>
-              
+<script>          
     /* Get the button*/
     let mybutton = document.getElementById("myBtn");
         
@@ -100,6 +118,35 @@
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
     }
-</script>    
+    /*Dropdown Button/*
+    /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
 
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+/*SLIDE IN EFFECT*/
+     const observer = new IntersectionObserver(entries => {
+     entries.forEach(entry =>{
+        if(entry.isIntersecting){
+            document.querySelectorAll(".animated")[0].classList.add("fadeInLeft");
+            document.querySelectorAll(".animated")[1].classList.add("fadeInRight");
+        }
+     })
+     })
+     observer.observe(document.querySelector(".container"));
+</script>
 </html>
